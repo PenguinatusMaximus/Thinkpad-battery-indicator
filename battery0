@@ -72,7 +72,7 @@ if ($status eq 'Discharging') {
 
 
 # print text
-print "$bat_sym\n";
+print "$bat_sym  ";
 print "$full_text\n";
 print "$short_text\n";
 
