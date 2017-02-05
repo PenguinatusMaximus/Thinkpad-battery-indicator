@@ -23,7 +23,7 @@ my $bat_sym;
 #my $bat_number = 0 ;
 
 # read the first line of the "acpi" command output
-open (ACPI, "acpi -b | grep 'Battery 0' |") or die;
+open (ACPI, "acpi -b | grep 'Battery1 ' |") or die;
 $acpi = <ACPI>;
 close(ACPI);
 
